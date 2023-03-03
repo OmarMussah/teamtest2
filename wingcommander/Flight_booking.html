@@ -1,0 +1,55 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles_1.css">
+  <script src="script.js"></script>
+<title>Flight Booking </title>
+</head>
+<body>
+<br>
+<br>
+<h1>Flight Booking </h1>
+<br>
+<br>
+<form>
+<label id="label_1">
+    <input type="radio" name="trip-type" value="1" checked onclick=show_1()>
+    Round&nbspTrip&nbsp
+  </label>
+  <label id="label_2">
+    <input type="radio" name="trip-type" value="2" onclick=show_2()>
+    One&nbspWay&nbspTrip
+  </label>
+<form name="form1" id="form1">
+    <select name="departure" id="departure">
+    <option value="" selected="selected">From</option>
+    </select>
+    <select name="destination" id="destination">
+    <option value="" selected="selected">To</option>
+    </select>
+    <label id="label1" for="date">Departure&nbsp;Date</label>
+    <input type="date" id="date"/>
+    <label id="label2" for="date">Return&nbsp;Date</label>
+    <input type="date" id="date1"/>
+    <select name="Passengers_num" id="passengers">
+    <option value="" selected="selected">Passengers</option>
+    </select>
+    <select name="Passengers_num_1" id="passengers_1" style="display: none;">
+    <option value="" selected="selected">Passengers</option>
+    </select>
+    <select name="class" id="class">
+    <option value="" selected="selected">Class</option>
+    </select>
+    <select name="class_1" id="class_1" style="display: none;">
+    <option value="" selected="selected">Class</option>
+    </select>
+</form>
+<a href="personal_information.html">
+<center>
+<button id="button">Submit</button>
+</center>
+</a>
+<a href="index.html">
+<button id="back">←&nbsp;Back</button>
+</a>
+</body>
+</html>

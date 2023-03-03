@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Information</title>
+    <style>
+      /* Title Style */
+      h1 {
+        text-align: center;
+        color: purple;
+        background-color: pink;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+
+      /* Input Fields Style */
+      input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid pink;
+        width: 100%;
+        font-size: 16px;
+      }
+
+      /* Submit Button Style */
+     #submit{
+        float:right;
+        background-color:#FFD1DC;
+        color: Purple;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        margin-bottom:20px;
+
+      }
+      #submit:hover {
+        background-color: grey;
+      }
+
+      /* Center Form */
+      form {
+      background-color:#fff;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 60px;
+
+
+      }
+      #back{
+      position: absolute;
+      left: 60px;
+      background-color: #FFB6C1;
+      border: none;
+      border-radius: 5px;
+      color: purple;
+      cursor: pointer;
+      font-size:20px;
+      width:200px;
+      height:45px;
+      bottom:10px;
+      }
+      #back:hover {
+      background-color: grey;
+      color:Purple;
+    }
+      /* Background Image */
+      body {
+        background-image: url('istockphoto-902818356-170667a.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+      }
+
+      /* Label Style */
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: purple;
+      }
+      
+    </style>
+  </head>
+  <body>
+     <br><br>
+    <h1>Personal Information</h1>
+    <form action="payment.html" action="post">
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" >
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" >
+
+      <label for="nationality">Nationality:</label>
+      <input type="text" id="nationality" name="nationality" >
+
+      <label for="passport-number">Passport Number:</label>
+      <input type="text" id="passport-number" name="passport-number" >
+        <button id="submit">Submit</button>
+    </form>
+     
+      <a href="Flight_booking.html">
+        <button id="back">&nbsp;Back</button>
+      </a> 
+  </body>
+</html>
+
+
