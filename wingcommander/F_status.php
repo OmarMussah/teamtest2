@@ -9,7 +9,7 @@ $flight_number = $_POST["flight-number"];
 // echo $date;
 
 
-$sql = "SELECT status, arrival_date FROM flights WHERE departure = '$departure' AND arrival = '$destination'";
+$sql = "SELECT status, arrival_date FROM Flights WHERE departure = '$departure' AND arrival = '$destination'";
 
 $result = $conn->query($sql);
 
